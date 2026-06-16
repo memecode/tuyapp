@@ -9,6 +9,7 @@ target_include_directories(tuyapp
     PUBLIC
         ${JSONCPP_INCLUDE_DIRS}
         ${CMAKE_CURRENT_LIST_DIR})
+
 target_link_directories(tuyapp PUBLIC ${JSONCPP_LIBRARY_DIRS})
 target_link_libraries(tuyapp ${JSONCPP_LIBRARIES})
 
